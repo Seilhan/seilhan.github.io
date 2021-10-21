@@ -329,13 +329,25 @@ footer {
 .footer__main {
     display: flex;
     width: 100%;
-    justify-content: space-between;
-    height: 140px;
-    padding-top: 30px;
+    padding: 30px;
 }
 
-li.footer__title {
+.footer__main a {
+    text-decoration: none;
+    color: #282828;
+}
+
+.footer__main li {
+    padding-bottom: 8px;
+}
+
+.footer__main li.footer__title {
+    padding-bottom: 17px;
     font-weight: 600;
+}
+
+.footer__main ul {
+    width: 100%;
 }
 
 
