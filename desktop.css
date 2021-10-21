@@ -1,0 +1,45 @@
+@media (min-width: 992px) {
+
+    /* Desktop */
+    nav {
+        justify-content: space-between;
+    }
+
+    nav a {
+        padding: 0 30px;
+        border-top: 2px solid white;
+        height: 80px;
+    }
+
+    nav a:hover,
+    nav a.active {
+        border-top: 2px solid;
+    }
+
+    nav img {
+        padding-left: 30px;
+    }
+
+    nav ul {
+        justify-content: space-between;
+    }
+
+    .form {
+        width: 318px;
+    }
+
+    .form__button_icon {
+        display: none;
+    }
+
+    .fliters span {
+        margin-right: 15px;
+        padding-right: 20px;
+    }
+
+
+
+
+
+
+}

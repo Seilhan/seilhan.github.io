@@ -1,0 +1,67 @@
+@media (max-width: 767px) {
+    /* Mobiles */
+
+    nav {
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    nav img {
+        padding: 20px 10px 10px;
+
+    }
+
+    nav a {
+        border-bottom: 2px solid rgb(221, 221, 221);
+        height: 50px;
+        flex: 1;
+        justify-content: center;
+    }
+
+    nav a:hover,
+    nav a.active {
+        border-bottom: 2px solid;
+    }
+
+    nav ul {
+        width: 100%;
+    }
+
+    nav li {
+        flex: 1
+    }
+
+    h1 {
+        padding-top: 30px;
+        font-size: 17px;
+        font-weight: 900;
+    }
+
+    .slogan {
+        font-size: small;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .button {
+        border-radius: inherit;
+        margin-left: -10px;
+    }
+
+    .filters {
+        flex-wrap: wrap;
+        padding-right: 8px;
+
+    }
+
+    .form__button__text {
+        display: none;
+    }
+
+    .filters span.filter {
+        width: 100%;
+    }
+
+}
