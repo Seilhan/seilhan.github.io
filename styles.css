@@ -15,7 +15,10 @@ header, main, .footer__main {
     max-width: 1200px;
 }
 
-
+a {
+    color: #282828;
+    text-decoration: none;
+}
 /*header*/
 
 nav {
@@ -41,8 +44,6 @@ nav li {
 nav a {
     display: flex;
     align-items: center;
-    text-decoration: none;
-    color: black;
     font-weight: 300;
 
 }
@@ -200,7 +201,6 @@ h1 {
     overflow: hidden;
     box-shadow: 0px 0px 10px #d8d7d7;
     transition: 0.3s;
-    text-decoration: none;
     color: black;
 }
 
@@ -243,8 +243,6 @@ h1 {
     display: block;
     font-size: 12px;
     font-weight: 600;
-    cursor: pointer;
-
 }
 
 
@@ -321,10 +319,6 @@ footer {
     padding: 30px;
 }
 
-.footer__main a {
-    text-decoration: none;
-    color: #282828;
-}
 
 .footer__main a:hover {
     text-decoration: underline;
