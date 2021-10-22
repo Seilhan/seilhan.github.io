@@ -24,6 +24,10 @@
         justify-content: space-between;
     }
 
+    main {
+        padding: 0 30px;
+    }
+
     .form {
         width: 318px;
     }
@@ -37,9 +41,33 @@
         padding-right: 20px;
     }
 
+    .blockgris {
+        border-radius: 19px;
+
+    }
+
+    .hebergement__aside.blockgris {
+        width: 40%;
+        min-width: 300px;
+    }
 
 
+    .cards__activites.moit {
+        flex: 0.5;
+    }
+    .cards__activites.moit2 {
+        flex: 0.6;
+    }
 
+    .activites__content {
+        height: 300px;
+    }
+    
+    .cards__activites {
+        height: 100%;
+    }
 
-
+    #activites {
+        padding: 40px 0;
+    }
 }

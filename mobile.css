@@ -31,6 +31,10 @@
         flex: 1
     }
 
+    #search {
+        padding: 0 30px;
+    }
+
     h1 {
         padding-top: 30px;
         font-size: 17px;
@@ -70,8 +74,23 @@
     }
 
     .hebergement__aside {
-        width: 100%;
-        border-radius: 0;
+        min-width: 315px;
+    }
+
+    .hebergement__main.blockgris {
+        background-color: white;
+    }
+
+    .cards__activites {
+        height: 180px;
+    }
+    #activites {
+        padding: 40px 30px;
+    }
+
+    .footer__main {
+        flex-direction: column;
+        gap: 25px;
     }
 
 }
