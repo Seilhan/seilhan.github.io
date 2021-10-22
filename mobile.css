@@ -64,4 +64,14 @@
         width: 100%;
     }
 
+    #hebergements{
+        flex-direction: row-reverse;
+        flex-wrap: wrap-reverse;
+    }
+
+    .hebergement__aside {
+        width: 100%;
+        border-radius: 0;
+    }
+
 }
