@@ -303,7 +303,7 @@ h1 {
 
 
 .cards__activites .card__photo {
-    flex:1;
+    flex:auto;
     height: 0;
     min-width: 100%;
 }

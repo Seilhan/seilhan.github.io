@@ -29,6 +29,7 @@ section#search {
 
 .cards__activites {
     height: 200px;
+    width: 0;
 }
 
 }
