@@ -288,7 +288,7 @@ h1 {
 
 .activites__content {
     display: flex;
-    flex-direction: column;
+    
     flex-wrap: wrap;
     width: 100%;
     gap: 20px;
